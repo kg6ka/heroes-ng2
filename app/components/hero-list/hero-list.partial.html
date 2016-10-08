@@ -1,0 +1,7 @@
+<h2>Heroes list</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <span class="badge" [textContent]="hero.id"></span>
+    <span class="text" [textContent]="hero.name"></span>
+  </li>
+</ul>

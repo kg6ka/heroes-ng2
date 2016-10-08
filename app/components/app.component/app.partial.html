@@ -1,0 +1,17 @@
+<section>
+  <h1 [textContent]="title"></h1>
+  <h2 [textContent]="hero.name"></h2>
+  <div>
+    <label>
+      id: 
+      <span [textContent]="hero.id"></span>
+    </label>
+  </div>
+  <div>
+    <label [attr.for]="hero.name" [textContent]="hero.name"></label>
+    <input [attr.id]="hero.name" type="text" placeholder="Name" 
+           [(ngModel)]="hero.name"
+           >
+  </div>
+  <hero-list [heroes]="heroes"></hero-list>
+</section>
