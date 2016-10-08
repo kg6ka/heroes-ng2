@@ -9,13 +9,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+// import { IHero }            from './app/models/hero';
 var HeroListComponet = (function () {
     function HeroListComponet() {
     }
-    __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Array)
-    ], HeroListComponet.prototype, "heroes", void 0);
     HeroListComponet = __decorate([
         core_1.Component({
             selector: 'hero-list',

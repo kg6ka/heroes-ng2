@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { IHero }            from './app/models/hero';
+// import { IHero }            from './app/models/hero';
 
 @Component ({
   selector: 'hero-list',
@@ -8,5 +8,5 @@ import { IHero }            from './app/models/hero';
 })
 
 export class HeroListComponet {
-  @Input() heroes: IHero[];
+  // @Input() heroes: IHero[];
 }
