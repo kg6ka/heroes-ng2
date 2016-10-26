@@ -1,6 +1,6 @@
 import { Component }   from '@angular/core';
 
-import { IHero }        from './app/models/hero';
+import { IHero }        from '../../models/hero';
 
 // Temporarily const
 const HEROES: IHero[] = [
