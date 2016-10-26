@@ -15,6 +15,9 @@ var forms_1 = require('@angular/forms');
 var app_component_1 = require('./components/app.component/app.component');
 var hero_list_component_1 = require('./components/hero-list/hero-list.component');
 var hero_detail_component_1 = require('./components/hero-detail/hero-detail.component');
+var heroes_component_1 = require('./components/heroes/heroes.component');
+var dashboard_component_1 = require('./components/dashboard/dashboard.component');
+var app_routing_module_1 = require('./app-routing.module');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,12 +25,15 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [
                 platform_browser_1.BrowserModule,
-                forms_1.FormsModule
+                forms_1.FormsModule,
+                app_routing_module_1.AppRoutingModule
             ],
             declarations: [
                 app_component_1.AppComponent,
                 hero_list_component_1.HeroListComponet,
-                hero_detail_component_1.HeroDetailComponent
+                hero_detail_component_1.HeroDetailComponent,
+                heroes_component_1.HeroesComponent,
+                dashboard_component_1.DashboardComponent
             ],
             bootstrap: [
                 app_component_1.AppComponent
